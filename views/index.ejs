@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %>
+
+<form action="/submit" method="POST">
+    <h1> Welcome to the Random Story Generator 🧙</h1>
+    
+    
+        <div class="story">
+            <p class="story-paragraph">
+                Once upon a time, in a <%= desAdjective %> beautiful kingdom called <%= kingdom %>, there lived a <%= desAdjective %> king named King Arthur and a kind queen named Queen 
+                Isabella. They had a brave son named Prince Edward and a clever daughter named Princess Sophia.The kingdom of Emeraldia was 
+                known for its lush forests, sparkling rivers, and majestic mountains. The people of the kingdom were happy and prosperous, 
+                thanks to the just and generous rule of King Arthur and Queen Isabella.One day, a fearsome dragon named Fang began terrorizing 
+                the peaceful villages near the grand castle. The villagers were frightened and pleaded for help. Brave Prince Edward decided to 
+                face the dragon. He wore his shiny armor, mounted his loyal horse, and rode out to the dragon's cave.When Prince Edward arrived, 
+                he saw the huge dragon sleeping on a pile of golden treasure. Using his sharp sword, he fought the dragon with all his might. 
+                The battle was intense, but Prince Edward's courage and skill helped him to defeat the dragon. The people of Emeraldia 
+                celebrated Prince Edward's victory with a grand feast. The king and queen were proud of their son's bravery. Prince Edward and 
+                Princess Sophia continued to help their parents rule the kingdom, ensuring that Emeraldia remained a happy and prosperous place 
+                for all. And they all lived happily ever after.
+            </p>
+        </div>
+        
+       
+
+    <input type="submit" value="Generate Story">
+</form>
+<%- include("partials/footer.ejs") %>
